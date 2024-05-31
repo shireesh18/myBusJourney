@@ -14,6 +14,28 @@
 		63CF16132C0603CA0069E983 /* myBusJourneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF16122C0603CA0069E983 /* myBusJourneyTests.swift */; };
 		63CF161D2C0603CA0069E983 /* myBusJourneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF161C2C0603CA0069E983 /* myBusJourneyUITests.swift */; };
 		63CF161F2C0603CA0069E983 /* myBusJourneyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF161E2C0603CA0069E983 /* myBusJourneyUITestsLaunchTests.swift */; };
+		63CF162F2C0604460069E983 /* QuoteResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF162E2C0604460069E983 /* QuoteResult.swift */; };
+		63CF16312C0604EA0069E983 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF16302C0604EA0069E983 /* Quote.swift */; };
+		63CF16332C0605300069E983 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF16322C0605300069E983 /* Trip.swift */; };
+		63CF16352C0605D00069E983 /* Origin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF16342C0605D00069E983 /* Origin.swift */; };
+		63CF16372C0605EB0069E983 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF16362C0605EB0069E983 /* Destination.swift */; };
+		63CF16392C0607880069E983 /* Departure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF16382C0607880069E983 /* Departure.swift */; };
+		63CF163B2C0607940069E983 /* Arrival.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF163A2C0607940069E983 /* Arrival.swift */; };
+		63CF163D2C0623730069E983 /* TodayScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF163C2C0623730069E983 /* TodayScheduleView.swift */; };
+		63CF163F2C0629020069E983 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF163E2C0629020069E983 /* Header.swift */; };
+		63CF16432C0741850069E983 /* QuotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF16422C0741850069E983 /* QuotesViewModel.swift */; };
+		63CF16472C077E9F0069E983 /* TripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF16462C077E9F0069E983 /* TripViewModel.swift */; };
+		63CF16492C077F520069E983 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF16482C077F520069E983 /* Route.swift */; };
+		63CF164B2C07805A0069E983 /* BusStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF164A2C07805A0069E983 /* BusStop.swift */; };
+		63CF164D2C0781340069E983 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF164C2C0781340069E983 /* Location.swift */; };
+		63CF16512C088C1C0069E983 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF16502C088C1C0069E983 /* ListView.swift */; };
+		63CF16532C088D260069E983 /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF16522C088D260069E983 /* Footer.swift */; };
+		63CF16562C0894F80069E983 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF16552C0894F80069E983 /* Helper.swift */; };
+		63CF16582C08A55B0069E983 /* TripMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF16572C08A55B0069E983 /* TripMapView.swift */; };
+		63CF165A2C08AE0B0069E983 /* TripMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF16592C08AE0B0069E983 /* TripMapViewModel.swift */; };
+		63CF165C2C08DFE40069E983 /* BusStopsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF165B2C08DFE40069E983 /* BusStopsListView.swift */; };
+		63CF16602C0917B20069E983 /* BusStopMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF165F2C0917B20069E983 /* BusStopMapView.swift */; };
+		63CF16622C09D1C10069E983 /* BusStopMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CF16612C09D1C10069E983 /* BusStopMapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +66,29 @@
 		63CF16182C0603CA0069E983 /* myBusJourneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myBusJourneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CF161C2C0603CA0069E983 /* myBusJourneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myBusJourneyUITests.swift; sourceTree = "<group>"; };
 		63CF161E2C0603CA0069E983 /* myBusJourneyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myBusJourneyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63CF162E2C0604460069E983 /* QuoteResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteResult.swift; sourceTree = "<group>"; };
+		63CF16302C0604EA0069E983 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		63CF16322C0605300069E983 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		63CF16342C0605D00069E983 /* Origin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Origin.swift; sourceTree = "<group>"; };
+		63CF16362C0605EB0069E983 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		63CF16382C0607880069E983 /* Departure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departure.swift; sourceTree = "<group>"; };
+		63CF163A2C0607940069E983 /* Arrival.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrival.swift; sourceTree = "<group>"; };
+		63CF163C2C0623730069E983 /* TodayScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayScheduleView.swift; sourceTree = "<group>"; };
+		63CF163E2C0629020069E983 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		63CF16422C0741850069E983 /* QuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewModel.swift; sourceTree = "<group>"; };
+		63CF16462C077E9F0069E983 /* TripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewModel.swift; sourceTree = "<group>"; };
+		63CF16482C077F520069E983 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		63CF164A2C07805A0069E983 /* BusStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStop.swift; sourceTree = "<group>"; };
+		63CF164C2C0781340069E983 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		63CF16502C088C1C0069E983 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		63CF16522C088D260069E983 /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
+		63CF16552C0894F80069E983 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		63CF16572C08A55B0069E983 /* TripMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMapView.swift; sourceTree = "<group>"; };
+		63CF16592C08AE0B0069E983 /* TripMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMapViewModel.swift; sourceTree = "<group>"; };
+		63CF165B2C08DFE40069E983 /* BusStopsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopsListView.swift; sourceTree = "<group>"; };
+		63CF165F2C0917B20069E983 /* BusStopMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopMapView.swift; sourceTree = "<group>"; };
+		63CF16612C09D1C10069E983 /* BusStopMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopMapAnnotationView.swift; sourceTree = "<group>"; };
+		63CF16632C09E5440069E983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +139,12 @@
 		63CF16002C0603C80069E983 /* myBusJourney */ = {
 			isa = PBXGroup;
 			children = (
+				63CF16632C09E5440069E983 /* Info.plist */,
+				63CF16542C0894E40069E983 /* Utils */,
+				63CF162D2C0604080069E983 /* ViewModels */,
+				63CF162C2C0603FF0069E983 /* Models */,
+				63CF162B2C0603F70069E983 /* Views */,
 				63CF16012C0603C80069E983 /* myBusJourneyApp.swift */,
-				63CF16032C0603C80069E983 /* ContentView.swift */,
 				63CF16052C0603CA0069E983 /* Assets.xcassets */,
 				63CF16072C0603CA0069E983 /* Preview Content */,
 			);
@@ -125,6 +174,57 @@
 				63CF161E2C0603CA0069E983 /* myBusJourneyUITestsLaunchTests.swift */,
 			);
 			path = myBusJourneyUITests;
+			sourceTree = "<group>";
+		};
+		63CF162B2C0603F70069E983 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63CF16032C0603C80069E983 /* ContentView.swift */,
+				63CF163C2C0623730069E983 /* TodayScheduleView.swift */,
+				63CF163E2C0629020069E983 /* Header.swift */,
+				63CF16502C088C1C0069E983 /* ListView.swift */,
+				63CF16522C088D260069E983 /* Footer.swift */,
+				63CF16572C08A55B0069E983 /* TripMapView.swift */,
+				63CF165B2C08DFE40069E983 /* BusStopsListView.swift */,
+				63CF165F2C0917B20069E983 /* BusStopMapView.swift */,
+				63CF16612C09D1C10069E983 /* BusStopMapAnnotationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		63CF162C2C0603FF0069E983 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63CF162E2C0604460069E983 /* QuoteResult.swift */,
+				63CF16302C0604EA0069E983 /* Quote.swift */,
+				63CF16322C0605300069E983 /* Trip.swift */,
+				63CF16342C0605D00069E983 /* Origin.swift */,
+				63CF16362C0605EB0069E983 /* Destination.swift */,
+				63CF16382C0607880069E983 /* Departure.swift */,
+				63CF163A2C0607940069E983 /* Arrival.swift */,
+				63CF16482C077F520069E983 /* Route.swift */,
+				63CF164A2C07805A0069E983 /* BusStop.swift */,
+				63CF164C2C0781340069E983 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		63CF162D2C0604080069E983 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				63CF16422C0741850069E983 /* QuotesViewModel.swift */,
+				63CF16462C077E9F0069E983 /* TripViewModel.swift */,
+				63CF16592C08AE0B0069E983 /* TripMapViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		63CF16542C0894E40069E983 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				63CF16552C0894F80069E983 /* Helper.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +357,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63CF16332C0605300069E983 /* Trip.swift in Sources */,
+				63CF163D2C0623730069E983 /* TodayScheduleView.swift in Sources */,
+				63CF16312C0604EA0069E983 /* Quote.swift in Sources */,
 				63CF16042C0603C80069E983 /* ContentView.swift in Sources */,
+				63CF164D2C0781340069E983 /* Location.swift in Sources */,
+				63CF16432C0741850069E983 /* QuotesViewModel.swift in Sources */,
+				63CF16492C077F520069E983 /* Route.swift in Sources */,
+				63CF162F2C0604460069E983 /* QuoteResult.swift in Sources */,
 				63CF16022C0603C80069E983 /* myBusJourneyApp.swift in Sources */,
+				63CF16352C0605D00069E983 /* Origin.swift in Sources */,
+				63CF16392C0607880069E983 /* Departure.swift in Sources */,
+				63CF165C2C08DFE40069E983 /* BusStopsListView.swift in Sources */,
+				63CF163B2C0607940069E983 /* Arrival.swift in Sources */,
+				63CF16512C088C1C0069E983 /* ListView.swift in Sources */,
+				63CF165A2C08AE0B0069E983 /* TripMapViewModel.swift in Sources */,
+				63CF16472C077E9F0069E983 /* TripViewModel.swift in Sources */,
+				63CF16602C0917B20069E983 /* BusStopMapView.swift in Sources */,
+				63CF163F2C0629020069E983 /* Header.swift in Sources */,
+				63CF16562C0894F80069E983 /* Helper.swift in Sources */,
+				63CF16372C0605EB0069E983 /* Destination.swift in Sources */,
+				63CF16582C08A55B0069E983 /* TripMapView.swift in Sources */,
+				63CF16532C088D260069E983 /* Footer.swift in Sources */,
+				63CF16622C09D1C10069E983 /* BusStopMapAnnotationView.swift in Sources */,
+				63CF164B2C07805A0069E983 /* BusStop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +547,12 @@
 				DEVELOPMENT_TEAM = 54MUY99KR7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myBusJourney/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +577,12 @@
 				DEVELOPMENT_TEAM = 54MUY99KR7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myBusJourney/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
